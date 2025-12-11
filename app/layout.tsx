@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     "DIY restoration and technical guides for rare espresso machines and grinders. Where espresso engineering becomes an art form.",
   generator: "v0.app",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: [{ url: "/favicon.ico" }, { url: "/icon.svg", type: "image/svg+xml" }],
+    apple: "/icon.svg",
   },
 }
 
